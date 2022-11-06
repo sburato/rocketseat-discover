@@ -1,0 +1,28 @@
+<!--
+    <select>
+        - Controle que fornece um menu de opções
+    <option>
+        - Contém as opções a serem selecionadas
+        - Atributos necessários
+            - value
+    # Atributos não únicos
+        - multiple
+            - Habilita múltiplas opções
+        - size
+            - Quantas opções estarão visíveis?
+        - Informações enviados após submeter o formulário
+            - Sem multiplos
+                - car-model=fiat
+                - car-model=volks
+                - car-model=chevrolet
+            - Com multiplos
+                - car-model=fiat,volks,chevrolet
+-->
+<label for="car-select">Escolha o modelo do carro</label>
+<br>
+<select name="car-model" id="car-select" multiple size="2">
+    <option value="">Selecione o modelo do carro</option>
+    <option value="fiat">Cronos</option>
+    <option value="volks">Polo</option>
+    <option value="chevrolet">Prisma</option>
+</select>
