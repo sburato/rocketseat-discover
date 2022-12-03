@@ -55,9 +55,11 @@ ul li:nth-child(even) {
 
 ```
 * HTML
+
 <input type="text" required>
 
 * CSS
+
 input:required {
   background-color: red;
 }
