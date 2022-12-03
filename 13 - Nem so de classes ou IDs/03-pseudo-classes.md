@@ -17,6 +17,7 @@ Pseudo-classes começam com 2 pontos seguido do nome do pseudo class
 
 ``` 
 * HTML
+
 <ul>
   <li>Gratidão</li>
   <li>Esperança</li>
@@ -29,6 +30,7 @@ Pseudo-classes começam com 2 pontos seguido do nome do pseudo class
 </ul> 
 
 * CSS
+
 ul li:nth-child(odd) {
   color: black;
   background: #eee;
